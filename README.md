@@ -1,8 +1,12 @@
 # Local Chat App 🚀
 
-A simple real-time chat application built with Node.js, Socket.IO, and Vite.  
-This project is designed for **local network usage**, meaning all users must be connected to the same Wi-Fi to interact.
+A simple real-time web chat application built with Node.js, Socket.IO, and Vite.
+This project is designed for **local network usage**, so all users must be connected to the same Wi-Fi to interact.
 
+**After running the quick setup**, you can copy the link provided and open it in your favorite browser. 
+Share this link with friends or family connected to your home Wi-Fi to start chatting.
+
+The app works on any device, but make sure your machine is running the app first, as it acts as the local server for everyone else.
 ---
 
 ## Features
@@ -17,21 +21,24 @@ This project is designed for **local network usage**, meaning all users must be 
 
 ## Setup
 
-### Requirements
+### Requirements on your local machine
 
 - Node.js v18+  
 - npm v9+  
-- A local Wi-Fi network
+- A local Wi-Fi network (es: Home Wi-Fi)
 
-
-## Install Node.js, npm & nodemon
+If you do not have them installed 
+# Follow this steps : 
+## Install Node.js, npm & nodemon on your local machine
 
 ### macOS
 ```bash
 brew install node
 npm install -g nodemon
-Ubuntu / Debian Linux
+```
 
+## Ubuntu / Debian Linux
+```bash
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt install -y nodejs
 npm install -g nodemon
@@ -54,7 +61,7 @@ npm install -g nodemon
 
 ```bash
 git clone git@github.com:manuel-crispino/Local_Chat-.git
-cd chat
+cd Local_Chat-/
 
 #Run the setup script:
 
