@@ -23,16 +23,18 @@ created=$(cat "$CREATED_FILE")
 updated=$(date +"%Y-%m-%d %H:%M:%S") # timestamp come “updated”
 
 # --- ASCII Art direttamente nello script ---
-ASCII_ART="
+ASCII_ART="${GREEN}
  _    _   ____ 
 / \  / | /   _|
 |  \`´  | |  / 
 | |\/| | |  \_
 \_/  \_| \____|
 
-© Manuel Crispino
-${MAGENTA}created : ${created} 
-last updated : ${updated}${RESET}                           
+  * Softwares Lab *
+${RESET}
+${MAGENTA}© Manuel Crispino
+Created : ${created} 
+Last updated : ${updated}
 "
 
 # --- Funzione per check/install dipendenze ---
