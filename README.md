@@ -60,20 +60,19 @@ cd chat
 
 ./set.sh
 
-#This script will:
+```
 
-#Check and install dependencies if missing (node_modules)
+## This script will:
 
-#Set up backend environment (.env with your local IP)
+- Check and install dependencies if missing (node_modules)
+- Set up backend environment (.env with your local IP)
+- Start the backend and frontend dev servers
+- Display the app URL for devices on the same network
 
-#Start the backend and frontend dev servers
+## Usage
 
-#Display the app URL for devices on the same network
-
-#Usage
-#After running ./set.sh, you will see an output like:
-
-
+### After running ./set.sh, you will see an output like:
+```bash
  _    _   ____ 
 / \  / | /   _|
 |  `´  | |  / 
