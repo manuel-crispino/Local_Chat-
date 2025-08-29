@@ -7,6 +7,7 @@ This project is designed for **local network usage**, so all users must be conne
 Share this link with friends or family connected to your home Wi-Fi to start chatting.
 
 The app works on any device, but make sure your machine is running the app first, as it acts as the local server for everyone else.
+
 ---
 
 ## Features
@@ -27,8 +28,8 @@ The app works on any device, but make sure your machine is running the app first
 - npm v9+  
 - A local Wi-Fi network (es: Home Wi-Fi)
 
-If you do not have them installed 
-# Follow this steps : 
+## If you do not have them installed 
+### Follow this steps : 
 ## Install Node.js, npm & nodemon on your local machine
 
 ### macOS
